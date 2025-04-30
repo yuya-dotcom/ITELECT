@@ -1,0 +1,40 @@
+body{
+height: 100vh;
+display: grid;
+grid-template-rows: 75px 1fr;
+}
+.header{
+background-color: whitesmoke;
+grid-row: 1 / 2;
+}
+a{
+    color: black;
+    padding-top: 32px;
+    padding-right: 60px;
+    float: right;
+}
+.l-usog{
+    padding-left: 10px;
+}
+.ht{
+font-size: 20px;
+padding-left: 15px;
+padding-top: 5px;
+}
+.main{
+background-color: rgb(245, 245, 245);
+grid-row: 2 / 2;
+}
+.h{
+padding-top: 30px;
+}
+.lalagyan{
+    padding-top: 15px;
+    padding-left: 450px;
+    display: flex;
+    flex-direction: row;
+}   
+.card{
+    align-items: center;
+    margin: 10px;
+}
